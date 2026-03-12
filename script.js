@@ -1,7 +1,7 @@
 window.onload = function() {
   let first = "Wey, no me lo vas a creer pero... ";
 
-  // ¡Añade más palabras dentro de estos corchetes separadas por comas!
+  // ¡Añadi nuevas palabras!
   let adj = ["un radiactivo ", "un gigante ", "un invisible ", "un místico "];
   let noun = ["repartidor de pizza ", "político ", "fantasma ", "influencer "];
   let action = ["secuestró mi ", "clonó mi ", "usó como escudo mi ", "confundió con un juguete mi "];
@@ -17,6 +17,6 @@ window.onload = function() {
   let rdm5 = Math.floor(Math.random() * where.length);
   let rdm6 = Math.floor(Math.random() * time.length);
 
-  // Unimos todo (He quitado el ";" que sobraba antes de "time")
+  // he unido todo y (He quitado el ";" que sobraba antes de "time")
   document.querySelector("#excuse").innerHTML = first + adj[rdm1] + noun[rdm2] + action[rdm3] + possetion[rdm4] + where[rdm5] + " " + time[rdm6];
 }
